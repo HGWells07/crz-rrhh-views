@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="semantic/dist/semantic.min.css"
+    />
+
+    <link rel="stylesheet" href="perfil.css" />
+
+    <title>Perfil</title>
+  </head>
+
+  <body>
+    <div class="container perfil">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="row profileRow">
+              <div class="col-md-12 col-lg-6 profileCol">
+                <div
+                  class="profileImage"
+                  style="background-image:url('http://betapi.canou.io/static/images/def.jpg')"
+                ></div>
+                <div>
+                  <h1 class="name"></h1>
+
+                  <hr />
+                  <h6 class="rol"></h6>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-lg-6">
+                <table class="list">
+                  <tbody>
+                    <tr>
+                      <td>
+                        <i class="fas fa-globe-americas"></i>
+                      </td>
+                      <td>Nacionalidad</td>
+                      <td class="listTitle">{uPais}</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <i class="fas fa-mars"></i>
+
+                        <i class="fas fa-venus"></i>
+
+                        <i class="fas fa-genderless"></i>
+                      </td>
+                      <td>Sexo</td>
+                      <td class="listTitle">
+                        <span>Masculino</span>
+
+                        <span>Femenino</span>
+
+                        <span>Otro</span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <i class="fas fa-heart"></i>
+                      </td>
+                      <td>Estado Civil</td>
+                      <td class="listTitle"></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table class="list list2">
+                  <tbody>
+                    <tr>
+                      <td rowSpan="4">
+                        <i class="fas fa-id-card"></i>
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+
+                    <tr>
+                      <td>CURP</td>
+                      <td class="listTitle">{uCurp}</td>
+                    </tr>
+                    <tr>
+                      <td>RFC</td>
+                      <td class="listTitle">{uRfc}</td>
+                    </tr>
+                    <tr>
+                      <td>IMMS</td>
+                      <td class="listTitle">{uImss}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <i class="fas fa-user-tie"></i>
+              &nbsp;&nbsp;Superior directo:{" "}
+              <span class="value">
+                Germán González Sánchez
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row editProfile">
+        <a href="#">
+          <i class="fas fa-edit"></i>
+          &nbsp;&nbsp; Editar Perfil
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="navbar.js"></script>
+  </body>
+</html>
