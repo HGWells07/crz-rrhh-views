@@ -1,0 +1,222 @@
+/*
+__Seed builder__v1.0
+*/
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #143b51; }
+
+.button {
+  padding: 10px;
+  margin: 10px 4px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e6ebed; }
+  .button:hover {
+    background-color: #1a9bac;
+    color: white; }
+
+.right {
+  float: right; }
+
+.clickable {
+  cursor: pointer; }
+
+.fullscreen {
+  height: 100%;
+  width: 100%; }
+
+.module {
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+
+.font {
+  font-family: "Oxygen", sans-serif; }
+
+.linebreak {
+  margin-top: 20px; }
+
+.break {
+  margin-top: 20px; }
+
+.sectionColored {
+  background-color: #e6ebed; }
+
+.sectionBordered {
+  border-radius: 4px;
+  border: 1px solid #f0f3f4; }
+
+.listItem {
+  box-sizing: border-box;
+  background-color: inherit;
+  color: #143b51;
+  border: 1px solid #143b51;
+  padding: 12px; }
+  .listItem.listItemActive {
+    background-color: #e6ebed; }
+
+/*
+=======================Flex and Alignment=========================
+*/
+.flex {
+  display: flex;
+  justify-content: left; }
+
+.flexCol {
+  display: flex;
+  flex-direction: column; }
+
+/*
+=======================Buttons=========================
+*/
+.button {
+  padding: 10px;
+  margin: 10px 4px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e6ebed; }
+  .button:hover {
+    background-color: #1a9bac;
+    color: white; }
+  .button.buttonOutline {
+    background-color: white;
+    border: 1px solid #143b51;
+    color: #143b51; }
+    .button.buttonOutline:hover {
+      background-color: #143b51;
+      color: white; }
+
+.badge {
+  background-color: #ef476f;
+  color: white; }
+
+.txt, .field, .select {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 12px 12px;
+  background-color: #e6ebed;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .txt:focus, .field:focus, .select:focus {
+    border: 1px solid #1a9bac;
+    box-shadow: 10px, 10px, 30px, #000; }
+  .txt:hover, .field:hover, .select:hover {
+    box-shadow: 10px, 10px, 30px, #000; }
+
+.field {
+  padding: 0px; }
+
+.select {
+  font-size: 16px;
+  padding: 8px; }
+
+.alert {
+  padding: 12px;
+  border: 1px solid #feb74c;
+  background-color: rgba(254, 183, 76, 0.1);
+  color: #feb74c;
+  border-radius: 4px;
+  margin-bottom: 12px; }
+
+.welcomeCard {
+  background-color: #e6ebed;
+  color: #065057;
+  border: none; }
+  .welcomeCard .titleWelcome {
+    font-weight: bold;
+    font-size: 24px; }
+  .welcomeCard .subtitleWelcome {
+    font-weight: lighter;
+    color: #9ca1a4;
+    font-size: 24px; }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+
+.minimalButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 12px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border: 4px;
+  font-size: 24px; }
+  .minimalButton:hover {
+    color: #ef476f; }
+
+.cardPadding {
+  padding-top: 20px; }
+
+.flexLeftContainer {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  align-items: center; }
+
+.flexRightContainer {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+  align-items: center;
+  text-align: right; }
+
+.flexRight span {
+  margin-left: 20px; }
+
+.flexLeft span {
+  margin-right: 20px; }
+
+.generalCard, .eventosCard, .organigramaCard, .incidenciaCard, .vacacionesCard, .simpleCard {
+  border: none;
+  font-size: 24px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-decoration: none; }
+  .generalCard:hover, .eventosCard:hover, .organigramaCard:hover, .incidenciaCard:hover, .vacacionesCard:hover, .simpleCard:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none; }
+
+.eventosCard {
+  color: #fef2f5;
+  background-image: linear-gradient(to right, #1b9aaa, #3fa9b7); }
+
+.organigramaCard {
+  color: #065057;
+  background-image: linear-gradient(to right, #d4e8f1, #e6ebed); }
+
+.incidenciaCard {
+  color: #fef2f5;
+  background-image: linear-gradient(to right, #ffb74d, #ffc774); }
+
+.vacacionesCard {
+  color: #fef2f5;
+  background-image: linear-gradient(to right, #ef476f, #f26889); }
+
+.titleSectionHome {
+  font-size: 24px;
+  color: #065057; }
+
+.subtitleSectionHome {
+  font-size: 18px;
+  color: #9ca1a4; }
+
+.simpleCard {
+  color: #065057;
+  background-color: #e6ebed; }
+  .simpleCard:hover {
+    box-shadow: none;
+    background-color: #d8dee0; }
+
+.displayNone {
+  display: none; }

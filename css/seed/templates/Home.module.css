@@ -1,0 +1,62 @@
+/*
+__Seed builder__v1.0
+*/
+.module {
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.drawer {
+  position: fixed;
+  width: 215px;
+  height: 100%;
+  z-index: 10;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.sidenav {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00a7dF;
+  overflow: auto;
+  border-right: 1px solid #e0e0e0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 215px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.topnav {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  overflow: auto;
+  background: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.module {
+  width: 100%;
+  height: 100%; }
